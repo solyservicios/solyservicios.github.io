@@ -1,0 +1,15 @@
+{
+  "name": "Soluciones y Servicios",
+  "short_name": "SyS",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#1c1d26",
+  "theme_color": "#e8491d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/icons/logo512x512.png",
+      "type": "image/png", "sizes": "512x512"
+    }
+  ]
+}
