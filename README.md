@@ -1,6 +1,8 @@
 # Soluciones y Servicios
 ### *A la medida de tus necesidades*
 
+![S y S logo](/images/pic01.png)
+
 En Soluciones y Servicios estamos para ayudarte con todo lo relacionado a:
 
 - 📚 Trabajos academicos
