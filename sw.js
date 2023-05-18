@@ -18,7 +18,8 @@ const offlineFallbackPage = [
   "/images/pic03.jpg",
   "/images/pic04.jpg",
   "/graphic-design.html",
-  "/copywriting.html" 
+  "/copywriting.html",
+  "/contact-form.html" 
 ];  
 
 self.addEventListener("message", (event) => {
