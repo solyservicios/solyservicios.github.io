@@ -3,8 +3,8 @@
   "short_name": "S y S",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#fdfdfd",
-  "theme_color": "#1c1d26",
+  "background_color": "#1c1d26",
+  "theme_color": "#e8491d",
   "orientation": "portrait-primary",
   "icons": [
     {
