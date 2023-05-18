@@ -2,10 +2,24 @@
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
-const CACHE = "pwabuilder-page";
+const CACHE = "cool-cache";
 
 // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
-const offlineFallbackPage = "solyservicios-v1";
+const offlineFallbackPage = [
+  "/",
+  "/index.html",
+  "/assets/css/main.css",
+  "/images/icons/logo512x512.png",
+  "/images/banner.jpg",
+  "/images/copybanner.png",
+  "/images/gp-ds.png",
+  "/images/pic01.png",
+  "/images/pic02.jpg",
+  "/images/pic03.jpg",
+  "/images/pic04.jpg",
+  "/graphic-design.html",
+  "/copywriting.html" 
+];  
 
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {
@@ -16,7 +30,7 @@ self.addEventListener("message", (event) => {
 self.addEventListener('install', async (event) => {
   event.waitUntil(
     caches.open(CACHE)
-      .then((cache) => cache.add(offlineFallbackPage))
+      .then((cache) => cache.addAll(offlineFallbackPage))
   );
 });
 
